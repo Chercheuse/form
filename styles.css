@@ -1,0 +1,90 @@
+h1, p {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    font-family: broadway;
+    font-size: 40;
+    color: hsla(260, 100%, 50%, 0.8);
+    text-decoration-line: underline;
+    text-decoration-color: rgb(120, 188, 9190);
+    border-color: #000000
+}
+
+p {
+    color: #f0571a;
+    font-family: calibri;
+    font-size: 15;
+    margin-bottom: 3px;
+    text-decoration-line: none;
+}
+
+.work {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+body {
+    background-color: #ffff35
+}
+
+input[type="submit"] {
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 36;
+    font-size: 22;
+    background-color: hsla(260, 100%, 50%, 0.8);
+    border-color: 8a0a4c;
+    min-width: 100px;
+    font-family: broadway;
+}
+
+.name {
+    background-color: f0571a
+}
+
+.email {
+    background-color: fa9d4b
+}
+
+.number {
+    background-color: fae84b;
+}
+
+.preference {
+    background-color: c8fa4b;
+}
+
+.dropdown {
+    background-color: fafa4b
+}
+
+.question {
+    background-color: 4bfa5f;
+}
+
+.bio {
+    background-color: 4bfada;
+}
+
+fieldset {
+    font-family: calibri;
+}
+
+input {
+    background-color:
+}
+
+input {
+    background-color: f7f0b0;
+}
+
+textarea {
+    background-color: f7f0b0;
+}
+
+.button {
+    background-color: b1b0f7
+}
