@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel="stylesheet" href="C:\Users\NADUXA\Desktop\Programming\styles.css"/>
+    </head>
+    <body>
+      <h1 id='title'>Working experience</h1>
+      <hr>
+      <p id='description'>Thank you for taking the time to answer some questions!</p>
+      <hr>
+      <form id='survey-form'>
+        <fieldset class='name'>
+          <label id='name-label' > Name <input id='name' type='text' placeholder='Enter your name' required> </label>
+          </fieldset>
+          <fieldset class='email'>
+            <label id="email-label"> Email <input id='email' type='email' placeholder='Enter your email' required></label>
+            </fieldset>
+            <fieldset class='number'>
+              <label id="number-label"> Number <input id='number'type='number' min='3' max='9' placeholder="Enter your phone number"></label>
+              </fieldset >
+<fieldset class='dropdown'> 
+  <label>What kind of work do you prefer?</label>
+  <select id='dropdown'>
+    <option>Fully remote</option>
+    <option>Hybrid</option>
+    <option>Work from office</option>
+
+    </select>
+    </fieldset>         <fieldset class='preference'>
+                <label>What kind of work do you prefer?</label><br>
+                <label> <input type='radio' class='inline'value='work'name='work'> Hybrid</label><br>
+                <label>  <input type='radio' class='inline' value='work'name='work'>  Fully remote</label><br>
+                <label> <input type='radio' class='inline' value='work' name='work'> Work from office</label><br>
+                </fieldset>
+                <fieldset class='question'>
+                  <label>Do you like your job? <input type='checkbox' class='preferences'value='preferences'></label><br>
+                  <label>Would you like to change your job?<input type='checkbox' class='preferences' value='preferences'></label>
+                  </fieldset>
+                  <fieldset class='bio'>
+                    <label> Tell about your first experience <textarea name='story' rows='5' cols='30' placeholder='My first jod was...'></textarea>
+                    </fieldset>
+                    <fieldset class='button'>
+                      <label> <input id='submit' type='submit' value='submit'></label>
+                      </fieldset>
+    </body>
+</html>
